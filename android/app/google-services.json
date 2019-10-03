@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "730323903668",
+    "firebase_url": "https://bot-utem.firebaseio.com",
+    "project_id": "bot-utem",
+    "storage_bucket": "bot-utem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730323903668:android:3610c8aa3ce8004d5563e1",
+        "android_client_info": {
+          "package_name": "cl.inndev.bot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730323903668-j31oqmf5ufejfqqp7m3npn1mcqhgetog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRn-qA0bpESn-8JXjwhikKUP_5xVJXjJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730323903668-j31oqmf5ufejfqqp7m3npn1mcqhgetog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
