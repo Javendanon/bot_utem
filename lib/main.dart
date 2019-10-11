@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Alexa utem',
+      // title: 'Alexa utem',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -24,8 +24,10 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Alexa UTEM'),
+      initialRoute: '/',
+      // home: MyHomePage(title: 'Alexa UTEM'),
       routes: {
+        '/': (context) => MyHomePage(title: 'Alexa UTEM'),
         '/voiceDetection': (context) => voiceDetectionScreen(),
       }
     );
@@ -110,7 +112,9 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: Navigator.pushNamed(context, "/voiceDetection");
+        onPressed: () {
+          Navigator.pushNamed(context, "/voiceDetection");
+        },
         tooltip: 'Increment',
         child: Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
